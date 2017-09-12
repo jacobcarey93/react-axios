@@ -30,7 +30,7 @@ export default class CreateCustomer extends Component {
       status: 'New Customer',
       log: ''
     }
-
+this.props.CreateCustomer( customer );
   }
 
   render() {
